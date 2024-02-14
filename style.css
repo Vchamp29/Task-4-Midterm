@@ -41,15 +41,12 @@ p{
       'header1 header2 header3'
       'footer1 footer2 footer3';
   }
-
   .container1 { grid-area: header1; }
   .container2 { grid-area: header2; }
   .container3 { grid-area: header3; }
   .container4 { grid-area: footer1; }
   .container5 { grid-area: footer2; }
   .container6 { grid-area: footer3; }
-
-
   @media screen and (min-width: 280px){
     .cons {
         display: grid;
@@ -62,7 +59,6 @@ p{
           'footer3';
       }
   }
-
   @media screen and (min-width: 576px){
     .cons {
         display: grid;
@@ -74,6 +70,7 @@ p{
           'footer2'
           'footer3';
     }
+  }
   @media screen and (min-width: 768px){
     .cons {
         display: grid;
@@ -86,7 +83,6 @@ p{
           'footer3';
       }
   }
-  
   @media screen and (min-width: 992px){
     .cons {
         display: grid;
@@ -99,7 +95,6 @@ p{
           'footer3';
       }
   }
-
   @media screen and (min-width: 1200px){
     .cons {
         display: grid;
