@@ -47,6 +47,18 @@ p{
   .container4 { grid-area: footer1; }
   .container5 { grid-area: footer2; }
   .container6 { grid-area: footer3; }
+  @keyframes example {
+    0%   {background-color: red;}
+    20%  {background-color: yellow;}
+    40%  {background-color: blue;}
+    60%  {background-color: green;}
+    80%  {background-color: purple;}
+    100% {background-color: orange;}
+  }
+  body {
+    animation-name: example;
+    animation-duration: 6s;
+  }
   @media screen and (min-width: 280px){
     .cons {
         display: grid;
@@ -124,15 +136,3 @@ a:hover, a:focus {
 a:active{
     color: red;
 }
-@keyframes example {
-    0%   {background-color: red;}
-    20%  {background-color: yellow;}
-    40%  {background-color: blue;}
-    60%  {background-color: green;}
-    80%  {background-color: purple;}
-    100% {background-color: orange;}
-  }
-  body {
-    animation-name: example;
-    animation-duration: 6s;
-  }
